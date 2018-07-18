@@ -1,0 +1,32 @@
+footer {
+	background-color: #F0DB48;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.footer-content  div {
+	min-width: 220px;
+	width: 47%;
+	margin-bottom: 40px;
+}
+
+footer p {
+	color: #141F45;	
+	font-weight: 400;
+}
+
+footer div p:first-child {
+	margin-bottom: 15px;
+}
+strong {
+	font-weight: 700;	
+}

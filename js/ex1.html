@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício 2 JS</title>
+</head>
+<body>
+	<h1> O desconto no seu salário será de:</h1>
+	<h2></h2>
+	<label for="salario">Salário</label>
+	<input type="text" id="salario">
+	<label for="imposto">Imposto</label>
+	<input type="range" id="imposto" min="1" max="99">
+	<output id="impostoApagar" name ="impostoApagar"></output>
+	<button id="bt-calcular">Calcular</button>
+	<script type="text/javascript">
+		console.log("executou quando carregou a pág")
+
+		function calculaImposto () {
+			console.log("executa quando a função é chamada")
+			let salario = document.querySelector('#salario').value
+			let imposto = document.querySelector('#imposto').value
+			let impostoApagar = (salario * imposto)/100
+			document.querySelector('#impostoApagar').value = impostoApagar
+		}
+
+		let botao= document.querySelector("#bt-calcular")
+		botao.onclick = calculaImposto
+	</script>
+	<script src="jquery-3.3.1.min.js"></script>
+</body>
+</html>

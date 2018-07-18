@@ -1,111 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="main.csss">
-	<title>Cozinharia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/structures.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>Cozinharia</title>
 </head>
 <body>
-	<section class="home">
-		<img src="home1-arroz.jpg">
-		<h1 class="title">Cozinha Brasileira Orgânica</h1>
-		<h2>Rua Frei Caneca, 920- conolação <br> Tel: 1144-30324 </h2>
-		<button class="transparent-box"> Como Chegar </button>
-		<button class="transparent-box"> Cardápio </button> 
+    <header>
+        <div class="header-content container">
+            <img src="src/logo-cozinharia.svg">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a>
+                        <div class="rectangle rec-yellow"></div>
+                    </li>
+                    <li> <a href="cozinharia.html">A Cozinharia</a></li>
+                    <li> <a href="cardapio.html">Cardápio</a></li>
+                    <li class= "evento"> <a href="#">Evento</a>
+                        <ul class="menu-hover">
+                            <li> 
+                                <a href="casamentos-details.html">Casamentos</a>
+                            </li> 
+                            <li> 
+                                <a href="empresariais-details.html">Empresariais</a>
+                            </li>      
+                        </ul>
+                    </li>
+                    <li> <a href="contato.html">Contato </a></li>
+                </ul>
+            </nav>
+        </div>      
+    </header>
+    <section id="home-banner">
+        <div class="home-information container">        
+            <h1>Cozinha Brasileira Orgânica</h1>
+            <p>Rua Frei Caneca, 920- Consolação <br> Tel: 1144-30324 </p>
+            <a class="button bt-blue">Como Chegar</a>
+            <a class="button bt-blue" href="#food-information">Cardápio</a> 
+        </div>
+    </section>
+    <section class="content-information container">
+        <div class="text">
+            <h1>A Cozinharia</h1>
+            <div class="rectangle rec-yellow"></div>
+            <p> Ambiente tranquilo, música ao vivo e pratos brasileiros feitos com alimentos de nossa horta, colhidos especialmetente para cada nova refeição. Os nossos tomates são muito bons!</p>
+            <a class="button bt-yellow" href ="#"> Sobre a Cozinharia</a> 
+        </div>
+        <img src="src/a-cozinharia-1.jpg" alt="prato com salmão">           
+    </section>
 
-	</section>
+    <section id="food-information">
+        <h1>Nosso Cardápio</h1>
+        <div class="rectangle rec-blue"> </div>
+        <section id="container-thumbnails" class="container">
+            <figure>
+                <img class="menu-image"src="src/cardapio-1.jpg" alt="imagem da comida">
+                <figcaption>
+                    <h3>Legumes Flambados</h3>  
+                    <p>Pimentão, cebola e tomate flambados na cachaça, farinha de trigo, ervas finas e pimenta.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img class="menu-image"src="src/cardapio-2.jpg" alt= "imagem da comida">
+                <figcaption> 
+                    <h3>Macarrão com Polvo</h3>
+                    <p>Pimentão, cebola e tomate flambados na cachaça, farinha de trigo, ervas finas e pimenta.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img class ="menu-image"src="src/cardapio-3.jpg" alt= "imagem da comida">
+                <figcaption> 
+                    <h3>Legumes Flambados</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img class ="menu-image"src="src/cardapio-4.jpg" alt= "imagem da comida">
+                <figcaption> 
+                    <h3>Legumes Flambados</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </figcaption>   
+            </figure>
+            <figure>
+                <img class ="menu-image"src="src/cardapio-5.jpg" alt= "imagem da comida">
+                <figcaption> 
+                    <h3>Legumes Flambados</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img class ="menu-image"src="src/cardapio-6.jpg" alt= "imagem da comida">
+                <figcaption> 
+                    <h3>Legumes Flambados</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </figcaption>
+            </figure>   
+        </section>
+        <a class="button bt-blue" href="#">Cardápio Completo</a>
+    </section>
 
-	<section class="about">
-		<h1 class="title">Cozinha Brasileira Orgânica</h1>
-		<div class="rectangle-yellow"></div>
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<button class="yellow-box"> Cardápio </button> 
-		<img class="img-about" src="a-cozinharia-1.jpg"  width="360px" height="260px">   		
-	</section>
+    <section class="content-information container">
+        <img src="src/casamentos-1.jpg" alt= "noiva e convidados">
+        <div class="text">
+            <h1> Eventos</h1>
+            <div class="rectangle rec-yellow"></div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+            </p>
+            <a class="button bt-yellow" href = "casamentos-details.html">Casamentos</a> 
+            <a class="button bt-yellow" href = "empresariais-details.html">Empresariais</a> 
+        </div>
+    </section>
+    
 
-	<section class="menu-information">
-		<h1 class="title">Nosso Cardápio</h1>
-		<div class="rectangle-black"> </div>
-		<div class="thumbnails">
-			<div class="menu-content">
-				<img class ="menu-image"src="cardapio-1.jpg" width="230px" height="165px"> 
-				<h3>Legumes Flambados</h3>
-				<ul>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>		
-				</ul>
-			</div>
-			<div class="thumbnails">
-			<div class="menu-content">
-				<img class ="menu-image"src="cardapio-2.jpg" width="230px" height="165px"> 
-				<h3>Legumes Flambados</h3>
-				<ul>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>		
-				</ul>
-			</div>
-			<div class="thumbnails">
-			<div class="menu-content">
-				<img class ="menu-image"src="cardapio-3.jpg" width="230px" height="165px"> 
-				<h3>Legumes Flambados</h3>
-				<ul>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>		
-				</ul>
-			</div>
-			<div class="thumbnails">
-			<div class="menu-content">
-				<img class ="menu-image"src="cardapio-4.jpg" width="230px" height="165px"> 
-				<h3>Legumes Flambados</h3>
-				<ul>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>		
-				</ul>
-			</div>
-			<div class="thumbnails">
-			<div class="menu-content">
-				<img class ="menu-image"src="cardapio-5.jpg" width="230px" height="165px"> 
-				<h3>Legumes Flambados</h3>
-				<ul>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>		
-				</ul>
-			</div>
-			<div class="thumbnails">
-			<div class="menu-content">
-				<img class ="menu-image"src="cardapio-6.jpg" width="230px" height="165px"> 
-				<h3>Legumes Flambados</h3>
-				<ul>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>
-					<li><h4>consectetur adipiscing elit</h4></li>		
-				</ul>
-			</div>
-			<button class="yellow-box"> Cardápio </button> 
-		</div>	
-	</section>
-
-	<section id="events">
-		<img class= "event-img" src="casamentos-1.jpg" width="360px" height="260px">
-		<h1 class="title">Eventos</h1>
-		<div class="rectangle-yellow"></div>
-		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-		</p>
-		<button class="yellow-box"> Casamentos </button> 
-		<button class="yellow-box"> Empresariais</button> 
-
-	</section>
-
+    <footer>
+        <div class="footer-content container">
+            <div> 
+                <p> <strong>A Cozinharia </strong> <p>
+                <p>
+                Rua Frei Caneca, 920 - Consolação <br>
+                Tel: 11 4443 0324 <br>
+                e-mail: contato@acozinharia.com.br
+                </p>
+            </div>
+            <div>
+                <p> <strong>Horário de funcionamento</strong> <p>
+                <p>
+                Segunda a Quarta das 12h às 15h / 19h30 às 23h<br>
+                Quinta e Sexta das 12h às 15h / 19h30 às 00h <br>
+                Sábado das 12h às 00h - direto <br>
+                Domingo das 12h às 17h <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+     <script type="text/javascript" src="js/script.js"></script>
+     <script src="js/jquery-3.3.1.min.js"></script>  
 </body>
 </html>

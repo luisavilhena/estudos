@@ -1,0 +1,26 @@
+.details-page {
+	background-color: #F8F8F8;
+	padding-top: 180px;
+	padding-bottom: 100px;
+}
+.details-content > p {
+	margin-bottom: 54px;
+	width: 69%;
+	text-align: justify;
+}
+
+.image-text {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-bottom: 54px;
+}
+
+.image-text img {
+	width: 70%;
+}
+
+.image-text p {
+	width: 28%;
+}

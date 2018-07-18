@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/structures.css">
+    <link rel="stylesheet" type="text/css" href="style/cardapio.css">
+    <title>Cardápio</title>
+</head>
+<body>
+    <header>
+        <div class="header-content container">
+            <img src="src/logo-cozinharia.svg">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="cozinharia.html">A Cozinharia</a></li>
+                    <li> <a href="cardapio.html">Cardápio</a>
+                    	<div class="rectangle rec-yellow"></div>
+                    </li>
+                    <li class= "evento"> <a href="#">Evento</a>
+                        <ul class="menu-hover">
+                            <li> 
+                                <a href="casamentos-details.html">Casamentos</a>
+                            </li> 
+                            <li> 
+                                <a href="empresariais-details.html">Empresariais</a>
+                            </li>      
+                        </ul>
+                    </li>
+                    <li> <a href="contato.html">Contato </a></li>
+                </ul>
+            </nav>
+        </div>      
+    </header>
+    <section id="section-page" class="container">
+		<section id="menu-left">
+			<h1>Cardápio</h1>
+			<div class="rectangle rec-yellow"></div>
+			<nav>
+				<a onclick="initScroll('almoco'); backScroll('almoco'); return false;" href="#almoco">Almoço</a>
+				<a onclick="initScroll('jantar'); backScroll('jantar'); return false;" href="#jantar">Jantar</a>
+				<a onclick="initScroll('bebidas'); backScroll('bebidas'); return false;" href="#bebidas">Bebidas</a>
+			</nav>
+		</section>
+		<section id="menu-right">
+			<table id="almoco">
+				<thead>
+					<tr>
+					 	<th class="title">Entradas do almoço</th>
+					 	<th>Inteira</th>
+					 	<th>Meia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Pães integrais com mel e manteiga</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Salada verde</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Salada com frutas da estação</td>
+						<td>R$ 18,00</td>
+						<td>R$ 13,00</td>
+					</tr>
+					<tr>
+						<td>Quiche</td>
+						<td>R$ 10,00</td>
+						<td>R$ 5,00</td>
+					</tr>
+					<tr>
+						<td>Pastel</td>
+						<td>R$ 20,00</td>
+						<td>R$ 10,00</td>
+					</tr>
+					<tr>
+						<td>Batata rústica</td>
+						<td>R$ 35,00</td>
+						<td>R$ 20,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<thead>
+					<tr>
+					 	<th class="title">Pratos principais do almoço</th>
+					 	<th>Inteira</th>
+					 	<th>Meia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Feijoada</td>
+						<td>R$ 40,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Lasanha verde</td>
+						<td>R$ 40,00</td>
+						<td>R$ 20,00</td>
+					</tr>
+					<tr>
+						<td>Legumes flambados</td>
+						<td>R$ 58,00</td>
+						<td>R$ 23,00</td>
+					</tr>
+					<tr>
+						<td>Medalhão ao molho madeira</td>
+						<td>R$ 40,00</td>
+						<td>R$ 25,00</td>
+					</tr>
+					<tr>
+						<td>Frango empanado</td>
+						<td>R$ 20,00</td>
+						<td>R$ 10,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<thead>
+					<tr>
+					 	<th class="title">Sobremesa do almoço</th>
+					 	<th>Inteira</th>
+					 	<th>Meia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Pudim</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Sorvete</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Salada de frutas</td>
+						<td>R$ 18,00</td>
+						<td>R$ 13,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="img-food">
+				<figure>
+					<img src="src/cardapio-2.jpg">
+					<figcaption>
+					 <h3>Macarrão com polvo</h3>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="src/cardapio-3.jpg">
+					<figcaption>
+					 <h3>Pudim de morango</h3>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="src/cardapio-4.jpg">
+					<figcaption>
+					 <h3>Drink cortesia</h3>
+					</figcaption>
+				</figure>	
+			</div>
+			<table id="jantar">
+				<thead>
+					<tr>
+					 	<th class="title">Entradas do jantar</th>
+					 	<th>Inteira</th>
+					 	<th>Meia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Pães integrais com mel e manteiga</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Salada verde</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Salada com frutas da estação</td>
+						<td>R$ 18,00</td>
+						<td>R$ 13,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<thead>
+					<tr>
+					 	<th class="title">Pratos principais do jantar</th>
+					 	<th>Inteira</th>
+					 	<th>Meia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Feijoada</td>
+						<td>R$ 40,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+					<tr>
+						<td>Lasanha verde</td>
+						<td>R$ 40,00</td>
+						<td>R$ 20,00</td>
+					</tr>
+					<tr>
+						<td>Legumes flambados</td>
+						<td>R$ 58,00</td>
+						<td>R$ 23,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<thead>
+					<tr>
+					 	<th class="title">Sobremesa do jantar</th>
+					 	<th>Inteira</th>
+					 	<th>Meia</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Pudim</td>
+						<td>R$ 20,00</td>
+						<td>R$ 15,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="img-food">
+				<figure>
+					<img src="src/cardapio-5.jpg">
+					<figcaption>
+					 <h3>Arroz misto</h3>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="src/cardapio-1.jpg">
+					<figcaption>
+					 <h3>salada mista</h3>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="src/cardapio-6.jpg">
+					<figcaption>
+					 <h3>açaí</h3>
+					</figcaption>
+				</figure>	
+			</div>
+			<table id="bebidas">
+				<thead>
+					<tr>
+					 	<th class="title">Bebidas Não Alcoólicas</th>
+					 	<th>300ml</th>
+					 	<th>500ml</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Água</td>
+						<td>R$ 5,00</td>
+						<td>R$ 7,00</td>
+					</tr>
+					<tr>
+						<td>Suco</td>
+						<td>R$ 8,00</td>
+						<td>R$ 10,00</td>
+					</tr>
+					<tr>
+						<td>Refrigerante</td>
+						<td>R$ 4,00</td>
+						<td>R$ 7,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<thead>
+					<tr>
+					 	<th class="title">Bebidas Alcoólicas</th>
+					 	<th>300ml</th>
+					 	<th>500ml</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Dinks</td>
+						<td>R$ 25,00</td>
+						<td>R$ 30,00</td>
+					</tr>
+					<tr>
+						<td>Cervejas artesanal</td>
+						<td>R$ 10,00</td>
+						<td>R$ 20,00</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="img-food">
+				<figure>
+					<img src="src/cardapio-4.jpg">
+					<figcaption>
+					 <h3>drink</h3>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="src/cardapio-2.jpg">
+					<figcaption>
+					 <h3>arroz</h3>
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="src/cardapio-6.jpg">
+					<figcaption>
+					 <h3>açaí</h3>
+					</figcaption>
+				</figure>	
+			</div>
+		</section>
+	</section>
+	<footer>
+        <div class="footer-content container">
+            <div> 
+                <p> <strong>A Cozinharia </strong> <p>
+                <p>
+                Rua Frei Caneca, 920 - Consolação <br>
+                Tel: 11 4443 0324 <br>
+                e-mail: contato@acozinharia.com.br
+                </p>
+            </div>
+            <div>
+                <p> <strong>Horário de funcionamento</strong> <p>
+                <p>
+                Segunda a Quarta das 12h às 15h / 19h30 às 23h<br>
+                Quinta e Sexta das 12h às 15h / 19h30 às 00h <br>
+                Sábado das 12h às 00h - direto <br>
+                Domingo das 12h às 17h <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script> 	
+</body>
+</html>

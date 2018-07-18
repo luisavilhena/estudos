@@ -1,0 +1,135 @@
+#home-banner.banner1 {
+    background-image: url("../src/home1-arroz.jpg");
+}
+
+#home-banner.banner2 {
+    background-image: url("../src/cardapio-1.jpg");
+}
+
+#home-banner.banner3 {
+    background-image: url("../src/casamentos-2.jpg");
+}
+
+#home-banner.banner3 h1{
+	color: white;
+}
+
+#home-banner.banner3 p {
+	color: white;
+}
+
+#home-banner.banner3 a {
+	color: white;
+	border-color: currentColor;
+}
+
+#home-banner.banner4 {
+    background-image: url("../src/empresariais-2.jpg");
+}
+
+
+#home-banner {
+	/*background-image: url("../src/home1-arroz.jpg"); */
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 180px;
+	transition: ease 0.3s
+}
+
+.home-information {
+	padding: 0 4%;
+}
+
+.rectangle {
+	margin-bottom: 25px;
+}
+
+.home-information > p {
+	font-size: 18px;
+}
+
+p {
+	color: #141F45;
+	margin-bottom: 50px;
+}
+
+h1 {
+	padding: 30px 0;
+}
+
+.content-information {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 105px;
+	margin-bottom: 105px;
+}
+
+.content-information .text {
+	width: 48%;
+	text-align: justify;
+} 
+
+.content-information img {
+	width: 48%;
+}
+
+#food-information {
+	padding-top: 105px;
+	padding-bottom: 105px;
+	background-color: #F0DB48;
+	width: 100%;
+	text-align: center;
+}
+
+#food-information > .rectangle {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+#container-thumbnails {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding-bottom: 80px;
+}
+
+figure {
+	position: relative;
+	width: 33%;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: white;
+	padding: 15px;
+	text-align: left;
+}
+
+figcaption p {
+	display: none;
+}
+
+figure:hover  figcaption p{
+	display: block;
+	color: #A3A3A3;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+
+
+
+

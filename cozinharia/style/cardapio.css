@@ -1,0 +1,79 @@
+#section-page {
+	padding-top: 180px;
+}
+#menu-left {
+	position: fixed;
+	padding-bottom: 180px;
+	width: 22.22%;
+}
+
+#menu-left nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: 22px;
+}
+
+#menu-left nav a {
+	margin-bottom: 50px;
+}
+
+#menu-left nav a:hover {
+	font-weight: 700;
+}
+
+#menu-right {
+	border-left: 10px #F0DB48 solid;
+	margin-left: 25%;
+	margin-top: 100px;
+	padding-top: 32px;
+	background-color: #FFF;
+	color: #A3A3A3;
+}
+
+#menu-right table {
+	width: 100%;
+	margin: 32px 0 52px 32px;
+}
+
+#menu-right .title {
+	color: #141F45;
+	width: 65%;
+	font-size: 20px;
+}
+
+#menu-right th {
+	padding-bottom: 16px;
+	text-align: left;
+}
+
+#menu-right td{
+	padding-bottom: 6px;
+}
+
+.img-food {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;	
+}
+
+.img-food:last-child {
+	margin-bottom: 150px;
+}
+
+figure img {
+	width: 100%;
+}
+figcaption {
+	width: 100%;
+}
+
+footer {
+	z-index: 3;
+	position: relative;
+}
+
+
+

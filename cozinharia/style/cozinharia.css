@@ -1,0 +1,45 @@
+#cozinharia-page-content {
+	background-color: #F8F8F8;
+	padding-top: 180px;
+	padding-bottom: 100px;
+}
+
+#content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 30px;	
+}
+
+.text .horarios h3:last-child {
+	margin-bottom: 54px;
+}
+
+#content p {
+	margin-bottom: 54px;
+}
+
+.images img {
+	width: 100%;
+}
+
+.images, .text {
+	width: 47%;
+}
+
+.images {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#gallery img {
+	width: 14%;
+	height: 120px;
+
+}
+
+#gallery .invisible {
+	display: none;	
+}
